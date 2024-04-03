@@ -13,7 +13,6 @@ import {
 } from "react-native";
 import { getTodos, createTodo, deleteTodo, updateTodo } from "../../api/todos";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import Task from "../../components/Task";
 
 export default function App() {
   const [todo, setTodo] = useState<any>("");
